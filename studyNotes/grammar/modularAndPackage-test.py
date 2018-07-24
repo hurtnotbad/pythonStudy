@@ -7,7 +7,7 @@
 模块好比工具包，要想使用工具包工具，需要先导入模块
 
 导入方式
-1、import 导入 语法：将模块中变量、类等一次性全部导入
+1、import 导入 grammar：将模块中变量、类等一次性全部导入
 import 模块名1，
 import 模块名2
 
@@ -18,7 +18,7 @@ as
 
 from
 1：可以直接导入模块的类、全局变量
-语法：
+grammar：
 from 模块名 import 工具名
 1、在使用工具名就不需要使用模块名
 2、如果from从2个模块中导入 同名的函数，那么后导入的模块函数会覆盖先导入的函数
@@ -29,7 +29,7 @@ form 模块名1 import *
 """
 
 # 可以正常使用，但为什么报错还不清楚
-import studyNotes.inMethod as inMethod
+import studyNotes.method.inMethod as inMethod
 
 if True:
     p = inMethod.MusicPlayer()
